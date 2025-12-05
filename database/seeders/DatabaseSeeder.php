@@ -16,15 +16,15 @@ class DatabaseSeeder extends Seeder
     {
         // User::factory(10)->create();
 
-        // User::factory()->create([
-        //     'name' => 'Marwan',
-        //     'email' => 'rezaaov1234a@gmail.com',
-        //     'password' => bcrypt('Password123')
-        // ]);
+        User::factory()->create([
+            'name' => 'intan',
+            'email' => 'intannurfathriaha@gmail.com',
+            'password' => bcrypt('Password123')
+        ]);
         Mahasiswa::create([
             'nim' => 'A001',
-            'nama' => 'Marwan',
-            'alamat' => 'Jl.Kampug utan No.76',
+            'nama' => 'intan',  
+            'alamat' => 'Jl.Kampug dongkal cipondoh',
             'kelas' => 'TI-1A',
             'jurusan' => 'Teknologi Informasi'
         ]);
